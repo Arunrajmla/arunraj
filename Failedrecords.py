@@ -5,7 +5,7 @@ import pandas as pd
 project_location = os.path.dirname(__file__)
 
 # Directory containing the CSV files (relative to the project location)
-directory = os.path.join(project_location, 'May25/RA')
+directory = os.path.join(project_location, 'May26/ALL')
 
 # Path to the Excel file with supplier names to be excluded (relative to the project location)
 exclusion_path = os.path.join(project_location, 'Supplier name that we can remove.xlsx')
